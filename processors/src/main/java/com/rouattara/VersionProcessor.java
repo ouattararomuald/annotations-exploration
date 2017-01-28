@@ -20,10 +20,6 @@ import java.util.Set;
 @SupportedSourceVersion(SourceVersion.RELEASE_8) public class VersionProcessor
     extends AbstractProcessor {
 
-  // A no-args constructor is required for an annotation processor
-  public VersionProcessor() {
-  }
-
   public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
     // Process all annotations
     for (TypeElement currentAnnotation : annotations) {
