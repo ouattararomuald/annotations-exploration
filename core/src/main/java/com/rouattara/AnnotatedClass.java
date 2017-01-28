@@ -1,10 +1,8 @@
 package com.rouattara;
 
-import com.rouattara.annotations.Getter;
-import com.rouattara.annotations.Setter;
 import com.rouattara.annotations.Version;
 
-@Getter @Setter @Version(major = -1, minor = 0) public class AnnotatedClass {
+@Version(major = -1, minor = 0) public class AnnotatedClass {
   private int age;
   private int firstName;
   private int lastName;
