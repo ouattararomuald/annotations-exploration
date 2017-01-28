@@ -1,0 +1,5 @@
+rootProject.name = 'annotations-exploration'
+include 'annotations'
+include 'core'
+include 'processors'
+
